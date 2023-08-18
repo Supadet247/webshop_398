@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "name": "Glorious GMMK Pro Barebones",
+        "price": 6990,
+        "image": "images/gmmkpro.png"
+    },
+    {
+        "id": 2,
+        "name": "MonsGeek M1",
+        "price": 3290,
+        "image": "images/M1_.png"
+    },
+    {
+        "id": 3,
+        "name": "Akko mod 007V2",
+        "price": 5390,
+        "image": "images/Mod007.png"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Zoom75",
+        "price": 8980,
+        "image": "images/zoom75.png"
+    },
+    {
+        "id": 5,
+        "name": "Gateron Oil King(10 ea)",
+        "price": 340,
+        "image": "images/gateron.png"
+    },
+    {
+        "id": 6,
+        "name": "Glorious Panda(35 ea)",
+        "price": 990,
+        "image": "images/Glorious.png"
+    }
+
+]

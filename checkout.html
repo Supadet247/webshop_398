@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LubeKeyStore</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="checkoutLayout">
+            <div class="returnCart">
+                <a href="/">เลือกซื้อสินค้าต่อ</a> 
+                <h1>สินค้าที่อยู่ในตะกร้า</h1> 
+                <div class="list">
+                    <div class="item">
+                        <img src="images/M1_.png"> 
+                        <div class="info">
+                            <div class="name">MonsGeek M1</div> 
+                            <div class="price">฿3290/1 ชิ้น</div> 
+                        </div>
+                        <div class="quantity">1</div> 
+                        <div class="returnPrice">฿3290</div> >
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h1>แจ้งชำระเงิน</h1> 
+                <div class="form">
+                    <div class="group">
+                        <label for="name">ชื่อ-นามสกุล</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="group">
+                        <label for="phone">เบอร์โทรศัพท์</label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                    <div class="group">
+                        <label for="address">ที่อยู่</label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div class="group">
+                        <label for="country">จังหวัด</label>
+                        <input type="text" name="province" id="province">
+                    </div>
+                    <div class="group">
+                        <label for="city">อำเภอ</label>
+                        <input type="text" name="district" id="district">
+                    </div>
+                    <div class="group">
+                        <label for="city">รหัสไปรษณีย์</label>
+                        <input type="text" name="zip" id="zip">
+                    </div>
+                    <div class="group">
+                        <label for="Qr">สลิปแจ้งชำระเงิน</label>
+                        <input type="file" name="file" id="file">
+                    </div>
+                </div>
+                <div class="return">
+                    <div class="row">
+                        <div>จํานวนสุทธิ </div>
+                        <div class="totalQuantity">0</div>
+                    </div>
+                    <div class="row">
+                        <div>ราคาสุทธิ</div>
+                        <div class="totalPrice">$0</div>
+                    </div>
+                </div>
+                <button class="buttonCheckout" id="alertButton">ชำระเงิน</button>
+            </div>
+        </div>
+    </div>
+    <script src="checkout.js"></script> 
+</body>
+
+</html>
